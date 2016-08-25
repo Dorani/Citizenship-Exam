@@ -1,9 +1,8 @@
 var questions = [
   ['How many states in the US?', 50],
-  ['How many stripes on the US flag', 13,
-  ['How many governers per State', 1],
-  ['How many amendments does the Constitution have?', 27],
-
+  ['How many stars on the flag', 50],
+  ['How many stripes on the flag', 13],
+  ['How many governers per state', 1]
 ];
 
 var correctAnswers = 0;
@@ -42,10 +41,11 @@ for (var i = 0; i < questions.length; i++) {
   }
 }
 
-html = "You got " + correctAnswers + "question(s) right!";
-html += '<h2>You got these questions correct:</h2>';
+html = "You got " + correctAnswers + " question(s) right!";
+html += '<h1>You got these questions correct:</h1>';
 html += buildList(correct);
-html += '<h2>You got these questions incorrect:</h2>';
+
+html += '<h0>You got these questions incorrect:</h0>';
 html += buildList(incorrect);
 
 print(html);
