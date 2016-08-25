@@ -1,6 +1,9 @@
 var questions = [
   ['How many states in the US?', 50],
-  ['How many stars on the flad?', 50]
+  ['How many stripes on the US flag', 13,
+  ['How many governers per State', 1],
+  ['How many amendments does the Constitution have?', 27],
+
 ];
 
 var correctAnswers = 0;
