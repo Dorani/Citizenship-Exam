@@ -22,12 +22,11 @@ var outputDiv = document.getElementById('output');
 function buildList(arr){
   var listHtml = '<dl>';
   for (var i = 0; i < arr.length; i++){
-    listHtml += '<li>' +arr[i] + '</li>';
+    listHtml += '<ul>' +arr[i] + '</ul>';
   }
     listHtml += '</dl';
     return listHtml;
   }
-
 
 
 for (var i = 0; i < questions.length; i++) {
