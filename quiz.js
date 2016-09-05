@@ -40,6 +40,7 @@ for (var i = 0; i < questions.length; i++) {
     correct.push(answer);
   } else {
     incorrect.push(question);
+    incorrect.push(answer);
   }
 }
 
