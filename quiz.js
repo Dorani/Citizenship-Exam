@@ -37,6 +37,7 @@ for (var i = 0; i < questions.length; i++) {
   if (response === answer) {
     correctAnswers++;
     correct.push(question);
+    correct.push(answer);
   } else {
     incorrect.push(question);
   }
