@@ -14,6 +14,7 @@ var html;
 var correct = [];
 var incorrect = [];
 var quiz;
+var quizScore;
 
 function print(message) {
 var outputDiv = document.getElementById('output');
