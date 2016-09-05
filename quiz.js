@@ -13,6 +13,7 @@ var response;
 var html;
 var correct = [];
 var incorrect = [];
+var quiz;
 
 function print(message) {
 var outputDiv = document.getElementById('output');
@@ -43,6 +44,12 @@ for (var i = 0; i < questions.length; i++) {
   }
 }
 
+function resetQuiz(){
+
+
+
+
+}
 html = "You got " + correctAnswers + " question(s) right!";
 html += '<h1>You got these questions correct:</h1>';
 html += buildList(correct);
