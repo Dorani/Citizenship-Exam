@@ -3,7 +3,7 @@ var questions = [
   ['How many stars on the flag', 50],
   ['How many stripes on the flag', 13],
   ['How many governers per state', 1],
-  ['Who is the first president', "George Washington"]
+  ['Who is the first president?', "George Washington"]
 ];
 
 var correctAnswers = 0;
